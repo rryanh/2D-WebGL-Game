@@ -72,6 +72,7 @@ Built for COSC 414 as project 1
 - JS
 - HTML
 - CSS
+- WebGL
 - [Netlify](https://www.netlify.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
