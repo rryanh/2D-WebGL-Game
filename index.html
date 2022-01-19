@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="style.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game d-flex justify-content-center">
+      <div class="top d-flex-row">
+        <h1 class="p-2 d-flex justify-content-center">Highscore</h1>
+        <div class="highscore p-2 d-flex justify-content-center">0</div>
+        <h2 class="p-2 d-flex justify-content-center">score</h2>
+        <div class="score p-2 d-flex justify-content-center">0</div>
+      </div>
+    </div>
+
+    <div class="game d-flex justify-content-center">
+      <canvas id="main-game" width="800" height="800"></canvas>
+    </div>
+    <div class="bottom row">
+      <div class="start d-flex justify-content-center col-5">
+        <button type="button" class="btn btn-dark">Start Game</button>
+      </div>
+      <div class="d-flex justify-content-center col-2">
+        <h1 class="lose"></h1>
+      </div>
+      <div class="reset d-flex justify-content-center col-5">
+        <button type="button" class="btn btn-dark">Reset Game</button>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
