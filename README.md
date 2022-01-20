@@ -108,7 +108,7 @@ To get a local copy up and running follow these example steps.
 ## Roadmap
 
 - [ ] Refactor entire JS file
-
+- [ ] Store highscore locally
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CONTACT -->
