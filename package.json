@@ -4,7 +4,7 @@
   "description": "",
   "default": "index.html",
   "scripts": {
-    "start": "parcel --no-cache index.html",
+    "start": "parcel index.html",
     "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "",
